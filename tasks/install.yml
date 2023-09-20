@@ -1,6 +1,6 @@
 ---
 - name: KVM and QEMU System components
-  apt:
+  package:
     name:
       - qemu-kvm
       - libvirt-daemon-system
